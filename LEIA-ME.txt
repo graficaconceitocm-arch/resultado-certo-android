@@ -1,0 +1,25 @@
+RESULTADO CERTO - APLICATIVO ANDROID (PROJETO FONTE)
+
+Este ZIP NAO e um APK pronto. E um projeto Android Studio para compilar o APK.
+
+PASSO A PASSO
+1. Instale o Android Studio (versao recente) no computador.
+2. Extraia este ZIP para uma pasta.
+3. Android Studio > Open > selecione a pasta resultado-certo-app.
+4. Aguarde a sincronizacao Gradle e a instalacao do Android SDK 35, se solicitada.
+5. Menu Build > Build Bundle(s) / APK(s) > Build APK(s).
+6. O arquivo sera gerado em app/build/outputs/apk/debug/app-debug.apk.
+7. Envie esse APK para seu celular Android e abra para instalar. Pode ser necessario permitir instalar apps dessa origem.
+
+CONFIGURACAO
+Site: https://resultadocerto.online/
+Pacote: online.resultadocerto.app
+Nome: Resultado Certo
+Android minimo: 7.0 (API 24)
+
+OBSERVACOES
+- O app precisa de internet; exibe o site dentro de um WebView com barra azul, inicio e atualizar.
+- O APK de debug e para testes. Para distribuir publicamente, gere um APK de release assinado.
+- Nao inclui notificacoes push, cache offline ou integracao nativa com resultados.
+- Nao foi possivel compilar/testar um APK neste ambiente; valide no Android Studio e no celular.
+- Para publicar na Play Store, pode ser necessario adequar funcionalidade, politicas e requisitos de conta.
